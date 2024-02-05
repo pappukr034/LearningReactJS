@@ -8,7 +8,11 @@ function App() {
   const addVal=()=>{
     counterVal++;
     if(counterVal<=20){
-      setCounterval(counterVal)
+      // setCounterval(counterVal)
+      // setCounterval(counterVal)
+      // setCounterval(counterVal)
+      setCounterval(prevCounter => (prevCounter+1))
+      setCounterval(prevCounter => (prevCounter+1))
     }
   }
   const removeVal=()=>{
